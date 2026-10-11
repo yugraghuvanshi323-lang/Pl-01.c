@@ -5,7 +5,7 @@ Program (02) -> Write a C program to swap two numbers  using a temporary variabl
 #include <stdio.h>
 int main()
 { 
-    int a, b, swap;
+    int a, b, temp;
 
     printf("\n Enter first number: ");
     scanf("%d", &a);
@@ -15,7 +15,7 @@ int main()
 
     temp = a;
     a = b;
-    b = swap;
+    b = temp;
 
     printf("\n After swapping: ");
     printf("\n First Number = %d \n", a);
